@@ -4,18 +4,22 @@
 
 Have you ever facinated to become [Terminator 2: Judgment Day](http://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day) movie fame [T-1000](http://en.wikipedia.org/wiki/T-1000)?. 
 
-Continue reading ..
+*Continue reading ..*
 
 You're a cop from [SkyNet](http://en.wikipedia.org/wiki/Skynet_(Terminator)) (pretend yourself as T-1000 for a moment and don't ask why T-1000 has to be in cop form) and you're tasked to trap speed of cars that are speeding above X kilometer speed.
 
-Oh! you're also a programmer, what would you do? Yes, you would write a prototype first to see how you can trap speed of cars.
+Oh! you're also a programmer, what would you do? Yes, you would first write a prototype to see how you can trap speed of cars.
 
-To keep things simple, Mr. T-1000 (don't you already?) we would develop two web applications a) an app to track speed of cars and bust them when they overspeed b) an app to simulate a car so that we can run more cars that would send speed details to speed tracking app. Before we go too much into details, let's quickly see what tech stuffs you need in order to build this app. If you knew following keywords ignore bullets, jump onto next paragraph. Otherwise, take a break and quickly read links provided below
+To keep things simple, Mr. T-1000, we would develop two web applications 
+
+* an app to track speed of cars and bust them when they overspeed.
+* an app to simulate a car so that we can run more cars that would send speed details to speed tracking app. 
+
+Before we go too much into details, let's quickly see what tech stuffs you need in order to build this app. If you know following keywords, ignore bullets below, jump onto next paragraph. Otherwise, take a break and quickly read links provided below -
 
 1. [SignalR](http://signalr.net/) - a C# based framework that can send quick signals to various browser sessions.
 2. [jQuery](https://jquery.org/) - a JS framework, made JavaScript reachable to poor people.
-3. [C#](http://en.wikipedia.org/wiki/C_Sharp_\(programming_language\)) - obviously, you must be knowing what it is.
-4. [ASP.NET MVC 5](http://en.wikipedia.org/wiki/ASP.NET_MVC_Framework) - a web application framework makes web apps development a breeze.
+3. [ASP.NET MVC 5](http://en.wikipedia.org/wiki/ASP.NET_MVC_Framework) - a web application framework makes web apps development breeze.
 
 ## Speed Trapper
 
