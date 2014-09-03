@@ -33,16 +33,30 @@ Now Speed Trapper needs to receive speeds of cars. We will have a separate web a
 
 Above screenshot shows how Car app would look like, it just displays a random number between 10 - 200 that is assumed to be the speed of the car. The car is nothing but your browser session. So if you open more browsers, you have more cars generating random numbers. This numbers, using SignalR, would be sent to Speed Trapper application. We will leave the details to you on how you would make the communication work.
 
-The screenshot shows names for each car. We have kept ```names.txt``` file for your reading pleasure, it has readable names that you would need to randomnly pick and assign to new browser sessions a.k.a new cars. However, do not worry about duplicate car names appearing in browser sessions.
+The screenshot shows names for each car. We have kept ```names.txt``` file in ```resources``` folder for your reading pleasure, it has readable names that you would need to randomnly pick and assign to new browser sessions a.k.a new cars. However, do not worry about duplicate car names appearing in browser sessions.
 
 ## Making Speed Trapper and Car app talk
 
 Once the Car app starts sending the data to Speed Trapper app. Speed Trapper now would receive the speed values (the random numbers). Speed Trapper now would check numbers to see if it is more than Overspeed thresold. In case, the number is greater than Overspeed thresold, Speed Trapper sends a SignalR message "You're busted". Car app now shows the message and stops sending random numbers, pretending, the car has been busted.
 
-# Submission
+# Submissions
 
-First of all, you would need to fork this repo. Implement two apps
+## How to submit
 
-#### Thanks
-1. T-1000 image taken from Fast company
-2. 
+1. Fork this repository.
+2. Implement two web apps exactly mentioned above. You will find two folders ```car-app``` to keep Car app source code and ```speed-trapper-app```.
+3. Send us a pull request and let us know by writing to jobs@exzeo.com. You will receive a call back from us.
+4. Though we love completed solutions, if you're stuck on something or unable to complete, feel free to send us a pull request.
+
+## Things to note (aka secrets to get selected)
+
+1. Don't send code as a zip file. We love pull requests and it saves time.
+2. We love ones who goes extra miles, so feel free to surprise us with your own creativity.
+3. We like to go details so bother to explain any details with extra markdown files in case you want code reviewer to specifically look from your code.
+4. Strictly assume you're writing __production quality code__ so write anything with reasons and must address all neccessary [cross cutting concerns] (http://en.wikipedia.org/wiki/Cross-cutting_concern)
+5. We love __unit tests__ and you will get our full attention if you include [NCover reports](http://ncover.sourceforge.net/sample-output/NCover-report.html)
+
+# Thanks
+1. James Cameroon for wonderful Terminator series.
+2. T-1000 image taken from Fast company.
+3. .NET and Javascript eco system
