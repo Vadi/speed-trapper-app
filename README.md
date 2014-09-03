@@ -41,7 +41,7 @@ Once the Car app starts sending the data to Speed Trapper app. Speed Trapper now
 
 # Submission
 
-First of all, you would need to fork this repo. You get 
+First of all, you would need to fork this repo. Implement two apps
 
 #### Thanks
 1. T-1000 image taken from Fast company
