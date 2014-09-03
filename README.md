@@ -1,10 +1,12 @@
 # Speed Trapper Application
 
-Have you ever facinated to become [Terminator 2: Judgment Day](http://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day) movie fame T-1000. Keep reading.
-
 <img src="images/T1000.jpg" />
 
-You're a cop from [SkyNet](http://en.wikipedia.org/wiki/Skynet_(Terminator)) (pretend yourself as [T-1000](http://en.wikipedia.org/wiki/T-1000) for a moment and don't ask why T-1000 has to be in cop form) and you're tasked to trap speed of cars that are speeding above X kilometer speed.
+Have you ever facinated to become [Terminator 2: Judgment Day](http://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day) movie fame [T-1000](http://en.wikipedia.org/wiki/T-1000)?. 
+
+Continue reading ..
+
+You're a cop from [SkyNet](http://en.wikipedia.org/wiki/Skynet_(Terminator)) (pretend yourself as T-1000 for a moment and don't ask why T-1000 has to be in cop form) and you're tasked to trap speed of cars that are speeding above X kilometer speed.
 
 Oh! you're also a programmer, what would you do? Yes, you would write a prototype first to see how you can trap speed of cars.
 
