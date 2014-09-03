@@ -2,7 +2,7 @@
 
 Have you ever facinated to become [Terminator 2: Judgment Day](http://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day) movie fame T-1000. Keep reading.
 
-![T-1000](images/T1000.jpg =310x175)
+<img src="images/T1000.jpg" width="310px" height="175px"/>
 
 You're a cop from [SkyNet](http://en.wikipedia.org/wiki/Skynet_(Terminator\)) (pretend yourself as [T-1000](http://en.wikipedia.org/wiki/T-1000) for a moment and don't ask why T-1000 has to be in cop form) and you're tasked to trap speed of cars that are speeding above X kilometer speed.
 
