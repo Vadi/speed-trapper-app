@@ -56,13 +56,14 @@ Once the Car app starts sending the data to Speed Trapper app. Speed Trapper now
 
 ## Things to note (aka secrets to get selected)
 
+0. If you have any questions regarding use cases on above requirements, try to avoid asking us, we would love if you would assume something to save time and back your assumption with convincing arguments when asked during review process about your decisions. This approach probably show offs your creativity.
 1. Don't send code as a zip file. We love pull requests and it saves time.
-2. We love ones who goes extra miles, so feel free to surprise us with your own creativity.
-3. We like to go details so bother to explain any details with extra markdown files in case you want code reviewer to specifically look from your code.
+2. We love those who goes extra miles, so feel free to surprise us with your own creativity.
+3. We like to go details so bother to explain any details with additional markdown files in case you want code reviewer to specifically look from your code.
 4. Strictly assume you're writing __production quality code__ so write anything with reasons and must address all neccessary [cross cutting concerns] (http://en.wikipedia.org/wiki/Cross-cutting_concern)
 5. We love __unit tests__ and you will get our full attention if you include [NCover reports](http://ncover.sourceforge.net/sample-output/NCover-report.html)
 
 # Thanks
 1. James Cameroon for wonderful Terminator series.
 2. T-1000 image taken from Fast company.
-3. .NET and Javascript eco system
+3. .NET and Javascript eco system.
