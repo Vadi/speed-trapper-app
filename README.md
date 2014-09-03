@@ -2,7 +2,7 @@
 
 Have you ever facinated to become [Terminator 2: Judgment Day](http://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day) movie fame T-1000. Keep reading.
 
-![T-1000](http://images.fastcompany.com/upload/T1000.jpg =310x175)
+![T-1000](images/T1000.jpg =310x175)
 
 You're a cop from [SkyNet](http://en.wikipedia.org/wiki/Skynet_(Terminator\)) (pretend yourself as [T-1000](http://en.wikipedia.org/wiki/T-1000) for a moment and don't ask why T-1000 has to be in cop form) and you're tasked to trap speed of cars that are speeding above X kilometer speed.
 
@@ -17,7 +17,7 @@ To keep things simple, Mr. T-1000 (don't you already?) we would develop two web 
 
 ## Speed Trapper
 
-![image](http://bit.ly/1ul6kk7)
+![image](./images/speed-trap-app.png)
 
 Above design shows how you observe speeds of cars while you sip cup of coffee sitting in Skynet office. Each number represents current speed of cars speeding in some roads. We don't care about which road a car is currently being driven. Each car has some name, you may find the names funny, we will come to that part little later.
 
@@ -29,7 +29,7 @@ Let's call this app as "Speed Trapper" app since it traps speed of cars and tell
 
 Now Speed Trapper needs to receive speeds of cars. We will have a separate web application, let's call as "Car" app, lives in URL - http://localhost:8081/car.
 
-![image](http://bit.ly/1ul9yEo)
+![image](./images/car-app.png)
 
 Above screenshot shows how Car app would look like, it just displays a random number between 10 - 200 that is assumed to be the speed of the car. The car is nothing but your browser session. So if you open more browsers, you have more cars generating random numbers. This numbers, using SignalR, would be sent to Speed Trapper application. We will leave the details to you on how you would make the communication work.
 
