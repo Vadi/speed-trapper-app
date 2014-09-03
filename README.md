@@ -25,7 +25,7 @@ Before we go too much into details, let's quickly see what tech stuffs you need 
 
 ![image](./images/speed-trap-app.png)
 
-Above design shows how you observe speeds of cars while you sip cup of coffee sitting in Skynet office. Each number represents current speed of cars speeding in some roads. We don't care about which road a car is currently being driven. Each car has some name, you may find the names funny, we will come to that part little later.
+Above design shows how you observe speeds of cars while you sip cup of coffee sitting in Skynet office. Each number represents current speed of cars speeding in some roads. We don't care about which road a car is currently being driven. Each car has some name we will come to that part little later.
 
 The text box in the top row tells you the speed that you define as "Overspeed". Any number less than 200km should be allowed in the text box.
 
@@ -39,7 +39,7 @@ Now Speed Trapper needs to receive speeds of cars. We will have a separate web a
 
 Above screenshot shows how Car app would look like, it just displays a random number between 10 - 200 that is assumed to be the speed of the car. The car is nothing but your browser session. So if you open more browsers, you have more cars generating random numbers. This numbers, using SignalR, would be sent to Speed Trapper application. We will leave the details to you on how you would make the communication work.
 
-The screenshot shows names for each car. We have kept ```names.txt``` file in ```resources``` folder for your reading pleasure, it has readable names that you would need to randomnly pick and assign to new browser sessions a.k.a new cars. However, do not worry about duplicate car names appearing in browser sessions.
+The screenshot shows names for each car. We have kept ```car-names.txt``` file in ```resources``` folder for your reading pleasure, it has readable names that you would need to randomnly pick and assign to new browser sessions a.k.a new cars. However, do not worry about duplicate car names appearing in browser sessions.
 
 ## Making Speed Trapper and Car app talk
 
