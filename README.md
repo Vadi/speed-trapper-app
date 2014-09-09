@@ -10,7 +10,7 @@ You're a cop from [SkyNet](http://en.wikipedia.org/wiki/Skynet_(Terminator)) (pr
 
 Oh! you're also a programmer, what would you do? Yes, you would first write a prototype to see how you can trap speed of cars.
 
-To keep things simple, Mr. T-1000, we would develop two web applications 
+To keep things simple, Mr. T-1000, we would develop two web applications -
 
 * an app to track speed of cars and bust them when they overspeed.
 * an app to simulate a car so that we can run more cars that would send speed details to speed tracking app. 
@@ -51,7 +51,7 @@ Once the Car app starts sending the data to Speed Trapper app. Speed Trapper now
 
 1. Fork this repository.
 2. Implement two web apps exactly mentioned above. You will find two folders ```car-app``` to keep Car app source code and ```speed-trapper-app```.
-3. Send us a pull request and let us know by writing to jobs@exzeo.com. You will receive a call back from us.
+3. Send us a pull request and let us know by writing to hello@exzeo.com. You will receive a call back from us.
 4. Though we love completed solutions, if you're stuck on something or unable to complete, feel free to send us a pull request.
 
 ## Things to note (aka secrets to get selected)
